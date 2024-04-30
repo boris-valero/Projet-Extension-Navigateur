@@ -1,15 +1,14 @@
 {
-    "manifest_version": 3,
-    "name": "Popup Blocker",
-    "version": "1.0",
-    "description": "Blocks pop-up windows and specified URLs.",
-    "permissions": ["activeTab", "webRequest", "webRequestBlocking"],
-    "action": {
-      "default_popup": "popup/popup.html",
-      "default_icon": "images/image.png"
-    },
-    "background": {
-      "service_worker": "background.js"
-    }
+  "manifest_version": 3,
+  "name": "Popup Blocker",
+  "version": "1.0",
+  "description": "Blocks pop-up windows and specified URLs.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "images/image.png"
+  },
+  "background": {
+    "service_worker": "background.js"
   }
-  
+}

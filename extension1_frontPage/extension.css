@@ -1,0 +1,129 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@100;300;400&display=swap"); */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mate", serif;}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/** NAVBAR  **/
+#nav {
+  border-bottom-width: 2px;
+  border-bottom-color: black;
+  border-bottom: solid;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  gap: 18px;
+  background-color: white;
+}
+
+#nav img {
+  height: 90%;
+}
+
+#nav h1 {
+  font-size: 18px;
+  color: rgb(88, 86, 86);
+}
+
+/**
+  * CONTENU
+  **/
+#contenu {
+  background-image: url("loupe.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0%;
+  padding: 0 32px 0 32px;
+}
+
+#contenu-interne {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+#gauche {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+ 
+}
+
+#droite img {
+  width: 40%;
+}
+
+#droite {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  position: sticky;
+  
+}
+
+#preview-download {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#description {
+  color: rgb(88, 86, 86);
+  font-size: 16px;
+}
+
+#telecharger-btn {
+  padding-right: 150px;
+}
+
+#telecharger-btn > button {
+  padding: 9px;
+  background-color: 8f8e92;
+  border-radius: 10%;
+}
+
+/**
+  * Footer
+  **/
+#footer {
+  border-top-width: 1px;
+  border-top-color: black;
+  border-top: solid;
+  position: sticky;
+  bottom: 0;
+  padding-bottom: 4px;
+  z-index: 50;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: rgb(88, 86, 86);
+  background-color: white;
+}

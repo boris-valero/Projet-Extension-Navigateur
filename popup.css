@@ -44,6 +44,73 @@ body {
     font-size: 15px;
    }
 
+   /*google button */
+  #googleSearch .hover-text{
+    display: none;
+  }
+
+  #googleSearch:hover .default-text{
+    display: none;
+  }
+
+  #googleSearch:hover .hover-text{
+    display: inline;
+  }
+
+  /* MDN Button */
+  #mdnSearch .hover-text{
+    display: none;
+  }
+
+  #mdnSearch:hover .default-text{
+    display: none;
+  }
+
+  #mdnSearch:hover .hover-text{
+    display: inline;
+  }
+
+  /* Youtube Button */
+  #youtubeSearch .hover-text{
+    display: none;
+  }
+
+  #youtubeSearch:hover .default-text{
+    display: none;
+  }
+
+  #youtubeSearch:hover .hover-text{
+    display: inline;
+  }
+
+  /* chatGpt Button */
+  #chatGptSearch .hover-text{
+    display: none;
+  }
+
+  #chatGptSearch:hover .default-text{
+    display: none;
+  }
+
+  #chatGptSearch:hover .hover-text{
+    display: inline;
+  }
+
+  
+  /* translate Button */
+  #translate .hover-text{
+    display: none;
+  }
+
+  #translate:hover .default-text{
+    display: none;
+  }
+
+  #translate:hover .hover-text{
+    display: inline;
+  }
+
+
   p {
     color:  #303255;
     font-size: 14px;

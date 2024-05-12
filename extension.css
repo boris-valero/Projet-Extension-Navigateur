@@ -2,7 +2,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Mate", serif;}
+  font-family: "Mate", serif;
+}
 
 body {
   min-height: 100vh;
@@ -67,7 +68,6 @@ body {
   justify-content: center;
   align-items: center;
   position: sticky;
- 
 }
 
 #droite img {
@@ -83,7 +83,6 @@ body {
   align-items: center;
   gap: 32px;
   position: sticky;
-  
 }
 
 #preview-download {
@@ -103,7 +102,7 @@ body {
 
 #telecharger-btn > button {
   padding: 9px;
-  background-color: 8f8e92;
+  background-color: #8f8e92;
   border-radius: 10%;
 }
 
